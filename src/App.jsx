@@ -1,8 +1,8 @@
 import { useAuth } from "./AuthContext";
 
-import Entrance from "./Entrance";
-import Tablet from "./Tablet";
-import Tunnel from "./Tunnel";
+import Entrance from "./components/Entrance";
+import Tablet from "./components/Tablet";
+import Tunnel from "./components/Tunnel";
 
 export default function App() {
   const { location } = useAuth();
